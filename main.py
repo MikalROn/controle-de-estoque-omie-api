@@ -129,7 +129,7 @@ def main():
                 print("Quantidade inválida! Produto pulado.")
                 continue
                 
-            cost = input("Custo unitário (ex: 25.99): ")
+            cost = 0
             try:
                 cost = float(cost)
                 if cost < 0:
